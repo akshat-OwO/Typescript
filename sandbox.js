@@ -1,22 +1,23 @@
+// explicit types
+var character;
+var age;
+var isLoggedIn;
+// age = 'luigi';
+age = 20;
+// isLoggedIn = 'true';
+isLoggedIn = true;
 // arrays
-var names = ['luigi', 'mario', 'toad'];
-names.push('yoshi');
-// names.push(3);
-// names[0] = 3;
-var numbers = [10, 20, 30, 40, 50];
-numbers.push(60);
-// numbers.push('shaun');
-// numbers[1] = 'shaun';
-var mixed = ['ken', 4, 'chun-li', 8, 9];
-mixed.push('ryu');
-mixed.push(10);
-mixed[0] = 3;
-// objects
-var ninja = {
-    name: 'mario',
-    belt: 'black',
-    age: 30
-};
-ninja.age = 40;
-ninja.name = 'luigi';
-// ninja.age = '30';
+var ninjas = [];
+ninjas.push('shaun');
+// union types
+var mixed = [];
+mixed.push('hello');
+mixed.push(20);
+console.log(mixed);
+var uid;
+uid = '123';
+uid = 123;
+var ninjaOne;
+ninjaOne = { name: 'yoshi', age: 30 };
+var ninjaTwo;
+ninjaTwo = { name: 'mario', age: 20, beltColor: 'black' };
